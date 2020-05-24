@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-course"
+    }
+  },
+  "defaultProject": "angular-course",
+  "cli": {
+    "analytics": "7a9dba4f-b62b-47ee-bb55-c601b3da5189"
+  }
 }

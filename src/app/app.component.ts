@@ -9,5 +9,14 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-course';
+  data = {
+    title: 'Angular Core Deep Dive'
+  }
+  onHeadClick(){
+    alert('abcd');
+  }
+
+  onKeyUp(newTitle: string){
+    this.data.title = newTitle;
+  }
 }
